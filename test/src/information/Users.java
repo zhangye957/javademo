@@ -3,17 +3,23 @@ package information;
 public class Users {
     private String userName;
     private String passWord;
-    public String getUserName(){
-        return this.userName;
-    }
-    public void setUserName(String userName){
+
+    public void setuserName(String userName){
         this.userName=userName;
     }
-    public String getPassWord(){
+    public String getuserName(){
+        return this.userName;
+    }
+    public void setpassword(String passWord){
+        this.passWord=passWord;
+    }
+    public String getpassWord(){
         return this.passWord;
     }
-    public void getPassWord(String passWord){
-        this.passWord=passWord;
+
+    public String show(){
+        String s="userName:"+this.userName+"password:"+this.passWord;
+        return s;
     }
 }
 

@@ -17,11 +17,11 @@ package adf;
             this.xz = x;
         }
 
-        public static void main(String[] args) {
-            Datas d = new Datas("生肖", "鸡", "苏");
-            Datas d2 = new Datas("生肖", "鸡", "苏");
-
-            System.out.println(d.yz);
-            System.out.println(d.xz);
-        }
+//        public static void main(String[] args) {
+//            Datas d = new Datas("生肖", "鸡", "苏");
+//            Datas d2 = new Datas("生肖", "鸡", "苏");
+//
+//            System.out.println(d.yz);
+//            System.out.println(d.xz);
+//        }
     }
